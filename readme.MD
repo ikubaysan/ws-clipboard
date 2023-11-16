@@ -1,0 +1,3 @@
+
+
+`pyinstaller --onefile client.py`
