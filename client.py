@@ -47,5 +47,5 @@ class WSClipboardClient:
                 await asyncio.sleep(5)
 
 if __name__ == "__main__":
-    client = WSClipboardClient("ws://10.0.0.147:8081")
+    client = WSClipboardClient("ws://10.0.0.147:8085")
     asyncio.run(client.connect())

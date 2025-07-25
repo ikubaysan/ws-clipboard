@@ -67,7 +67,7 @@ class WSClipboardServer:
             )
 
 if __name__ == "__main__":
-    server = WSClipboardServer(8081)
+    server = WSClipboardServer(8085)
     try:
         asyncio.run(server.run_server())
     except KeyboardInterrupt:
